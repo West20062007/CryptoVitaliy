@@ -1,0 +1,6 @@
+- name: Compare The Latest Releases Between Two Repositories
+  uses: NickLiffen/compare-releases@v1
+  with:
+    destinationRepository: GitHub/fetch
+    sourceRepository: NickLiffen/GSSAR
+    token: ${{ secrets.GITHUBREADONLY }}
